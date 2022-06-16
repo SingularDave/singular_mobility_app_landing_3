@@ -1,0 +1,75 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <img src="https://imagedelivery.net/68SN6RDwKYb315QTtTsC9w/2d14d7ad-305e-44a3-651f-a6fea2e1a600/public" style="display: block; margin-left: auto; margin-right: auto;" alt="Singular Movement Logo">
+      <br>
+      <h2 class="mt-0">Singular Movement's Mobility Training App</h2>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">Helps users conveniently, safely, and inexpensively improve their mobility from head to toe.</p>
+      <br>
+      <a class="btn_get_started" href="https://singularmovement.com/"
+         style="border: 2px solid black; border-radius: 5px; background-color: #3285b8; color: white; padding: 14px 28px; font-size: 16px; cursor: pointer"
+         role="button">Get Started</a>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div style="position: relative; padding-top: 40%; height: 10%; left: 15%; display: block"><iframe src="https://iframe.videodelivery.net/0f6c00cd23bde766826e673b5abc7059?preload=true&poster=https%3A%2F%2Fvideodelivery.net%2F0f6c00cd23bde766826e673b5abc7059%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D40s%26height%3D600" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 70%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ define "sidebar-prefooter" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Versatile</h2>
+        <p>Exercise sessions are great for stand-alone mobility workouts and pre-workout warmups-- such as before
+          running or resistance training.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Time-Efficient ⚡️</h2>
+        <p>Complete a mobility training session anywhere in 5-10 minutes. No special equipment required. </p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Affordable</h2>
+        <p>Gain immediate access to the Mobility Training App with our premium subscription. It is very affordable at
+          our grand-opening sale price of <b>$14.99/month</b>.</p>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-5">
+        <h2 class="h4">Free Trial</h2>
+        <p>Give the application a risk-free try with our 3-day free trial.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Evidence-Based Approach</h2>
+        <p>The application's algorithm generates exercise recommendations to improve the user’s limited motions by
+          systematically mobilizing other body regions. The goal is to optimize the user's active range of motion from
+          head to toe.</p>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="h4">Additional Content</h2>
+        <p>Singular Movement provides premium users with an assortment of strength & conditioning educational articles
+          and apps.</p>
+      </div>
+    </div>
+    <br>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
